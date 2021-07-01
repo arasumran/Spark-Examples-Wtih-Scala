@@ -1,0 +1,7 @@
+spark 3 is faster dan 2 (17x)
+deprecate python2
+deprecated some ML lib packages based on RDD
+GPU instance support (not doing deep learing but help to do it)
+Binary File Support
+converted (as CQL)  Grapx to SparkGraph
+ACID support in data lakes with Delta Lake
