@@ -32,3 +32,12 @@ def transformIt(x: Int ,f:Int=>Int):Int = {
 val result1 = transformIt(10 , x => 10/2) // 5
 val result2 = transformIt(2,squared) // 4
 val result3 = transformIt(2,x=>{val y = x*2;y*y})
+
+
+// DATA STRUCTURES
+
+
+// Tuple is immutable lists
+
+val tupleVal = ("test1","test2",5)
+println(tupleVal._1) // this is first one
