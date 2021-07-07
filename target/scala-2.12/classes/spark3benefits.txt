@@ -5,3 +5,15 @@ GPU instance support (not doing deep learing but help to do it)
 Binary File Support
 converted (as CQL)  Grapx to SparkGraph
 ACID support in data lakes with Delta Lake
+
+
+
+####################################################
+
+Spark CheatSheet
+
+reduceByKey() : combine values with same key using some func. ex : rdd.reduceByKey((x,y)=>x+y) adds them up
+groupByKey() : group values with same key
+sortByKey (): sort RDD by key values
+keys(), values() : create an RDD just of keys,or just the values
+join,rightOuterJoin,leftOuterJoin,cogroup,substractByKey etc.
