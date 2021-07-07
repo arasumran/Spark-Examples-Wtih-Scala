@@ -41,3 +41,9 @@ val result3 = transformIt(2,x=>{val y = x*2;y*y})
 
 val tupleVal = ("test1","test2",5)
 println(tupleVal._1) // this is first one
+
+
+
+// MAP : transforms each element of an RDD into one new element
+
+// FLAPMAP : can create many new elements from each one
