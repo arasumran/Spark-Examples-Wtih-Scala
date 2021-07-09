@@ -4,7 +4,7 @@ package com.sparkwithscala
 import org.apache.spark._
 import org.apache.log4j._
 
-/** Count up how many of each word appears in a book as simply as possible. */
+/** 6 Count up how many of each word appears in a book as simply as possible. */
 
 /** ************************************************************************** */
 // MAP : transforms each element of an RDD into one new element

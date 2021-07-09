@@ -5,7 +5,7 @@ import org.apache.spark._
 import org.apache.log4j._
 import scala.math.min
 
-/** Find the minimum temperature by weather station */
+/** 2  Find the minimum temperature by weather station */
 object MinTemperatures {
   
   def parseLine(line:String): (String, String, Float) = {

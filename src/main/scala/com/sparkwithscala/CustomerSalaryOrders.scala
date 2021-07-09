@@ -5,7 +5,7 @@ import org.apache.spark._
 
 /** Count up how many of each word appears in a book as simply as possible. */
 
-/** ************************************************************************** */
+/** 7  ************************************************************************** */
 // MAP : transforms each element of an RDD into one new element
 
 // FLAPMAP : can create many new elements from each one

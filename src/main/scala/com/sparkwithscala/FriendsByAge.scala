@@ -3,7 +3,7 @@ package com.sparkwithscala
 import org.apache.spark._
 import org.apache.log4j._
 
-/** Compute the average number of friends by age in a social network. */
+/** 4  Compute the average number of friends by age in a social network. */
 object FriendsByAge {
   
   /** A function that splits a line of input into (age, numFriends) tuples. */

@@ -2,7 +2,7 @@ package com.sparkwithscala
 
 import org.apache.log4j._
 import org.apache.spark._
-
+/** 3 */
 object RatingsCounter {
   def main(args: Array[String]): Unit = {
 
